@@ -10,11 +10,15 @@ A custom theme for TrickBD.com
 [[https://github.com/tas33n/TrickBD-theme/wiki][https://img.shields.io/badge/docs-on%20GitHub-007ec6.svg?&style=flat]]
 [[https://raw.githubusercontent.com/tas33n/TrickBD-theme/main/trickbd-glass.user.styl][https://img.shields.io/badge/Install%20directly%20with-Stylus-116b59.svg?longCache=true&style=flat]]
 
-#+HTML: <img src="https://raw.githubusercontent.com/Tas33n/TrickBD-theme/main/preview1.png" width="100%"/>
+#+HTML: <img src="https://raw.githubusercontent.com/Tas33n/TrickBD-theme/main/Screenshot_1.png" width="100%"/>
 
 #+HTML: <br /> <br />
 
-#+HTML: <img src="https://raw.githubusercontent.com/Tas33n/TrickBD-theme/main/preview2.png" width="100%"/>
+#+HTML: <img src="https://raw.githubusercontent.com/Tas33n/TrickBD-theme/main/Screenshot_2.png.png" width="100%"/>
+
+#+HTML: <br /> <br />
+
+#+HTML: <img src="https://raw.githubusercontent.com/Tas33n/TrickBD-theme/main/Screenshot_3.png.png" width="100%"/>
 
 /Version 1.0.0 first build./
 
