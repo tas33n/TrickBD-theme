@@ -10,7 +10,7 @@
 @-moz-document domain("trickbd.com") {
 body {
     background: url(https://wallpapercave.com/wp/wp4676588.jpg);
-    /* to change background image, replace img link with your img or color value */
+    /* to change background image, replace img link with your img */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -99,8 +99,19 @@ textarea,
 .main_share,
 .comment-respond h3#reply-title,
 .comment-respond .logged-in-as,
-.comment-respond .logged-in-as a {
+.comment-respond .logged-in-as a,
+.num_posts_comments a {
     color: white !important;
+    text-shadow: -1px 1px 1px #000000;
+}
+.post_content {
+    backdrop-filter: blur(45.8px);
+    -webkit-backdrop-filter: blur(45.8px);
+}
+
+.post_content a {
+    color: #adffd9 !important;
+    text-shadow: -1px 1px 1px #030fa3;
 }
 
 .down,
