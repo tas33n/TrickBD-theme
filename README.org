@@ -2,7 +2,7 @@
 #+HTML: <div align="center">
 
 * TrickBD-theme
-A custom theme for TrickBD.com
+A custom theme designed for TrickBD.com
 
 [[https://github.com/tas33n/TrickBD-theme/blob/master/changelog.org][https://img.shields.io/github/v/tag/tas33n/TrickBD-theme.svg?label=version&style=flat]]
 [[https://github.com/tas33n/TrickBD-theme/stargazers][https://img.shields.io/github/stars/tas33n/TrickBD-theme.svg?style=flat]]
@@ -25,7 +25,7 @@ A custom theme for TrickBD.com
 #+HTML: </div>
 
 ** About
-Experimental userstyle for well known forum site in Bangladesh TrickBD.com.
+Experimental custom theme for well known forum site in Bangladesh TrickBD.com.
 
 
 *Update 20.98.2022*: This is my first build so it may have bugs in it but bare with me.
