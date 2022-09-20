@@ -1,0 +1,159 @@
+/* ==UserStyle==
+@name         Facebook Cyber Punk
+@version      20220825.11.55
+@namespace    userstyles.world/user/tas33n
+@description  A cyber Punk inspired theme for facebok web. There still some bugs left, but i will try to fix them asap.. Also any feedback from users are welcom..
+@author       tas33n
+@license      No License
+==/UserStyle== */
+
+@-moz-document domain("trickbd.com") {
+body {
+    background: url(https://wallpapercave.com/wp/wp4676588.jpg);
+    /* to change background image, replace img link with your img */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: white !important;
+}
+.post_content,
+.full_post_area,
+.recent_posts,
+.featured_post .box,
+.authors,
+.sidebar .cats,
+.main_slider,
+.featured_post .box ul,
+footer .foo_top,
+ul.page-numbers li a,
+ul.page-numbers li span,
+.author_about,
+.m_menu ul ul.sub-menu,
+.m_menu ul ul.sub-menu li a,
+.sidebar .side_posts {
+    background: rgba(28, 3, 56, 0.47);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.8px);
+    -webkit-backdrop-filter: blur(10.8px);
+    border: 1px solid rgba(28, 3, 56, 0.66);
+    background-color: transparent !important;
+}
+header .mid,
+textarea,
+.full_post_area .col_2 .block_comment ol.commentlist li.comment .comment-body,
+.categories {
+    background: transparent;
+}
+/* head banner part */
+.single_head,
+.main_slider,
+.author_head {
+    background: rgb(82, 2, 131) !important;
+    background: linear-gradient(90deg, rgba(82, 2, 131, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(120, 0, 232, 1) 100%);
+    max-width: 90%;
+    margin: auto;
+    border-radius: 50px;
+}
+.user-moderate {
+    background: rgb(82 2 131 / 19%) !important;
+    max-width: 90%;
+    margin: auto;
+    border-radius: 20px;
+}
+/* logo */
+.logo img {
+    background: white;
+    padding: 5px;
+    border-radius: 30px;
+    border: 4px solid #7243e9;
+}
+
+/* text colors */
+h1,
+.home a,
+.home span,
+.h_middle,
+.cats ul li a,
+.authors h3,
+.sidebar .cats h3,
+ul.page-numbers li a,
+ul.page-numbers li span,
+.post_content,
+.trickbd-comment-content,
+.full_post_area .col_2 .block_comment ol.commentlist li.comment .comment-body .comment-author cite a.url,
+.full_post_area .col_2 .block_comment ol.commentlist li.comment .comment-body .comment-author cite small,
+.author_about h3 a,
+.author_about p,
+.logged-in .full_post_area .sidebar .author_about .num_posts_comments a,
+.cat a,
+.m_menu ul ul.sub-menu a,
+.full_post_area .sidebar .side_posts > h3,
+.home textarea,
+.full_post_area .col_2 .post_content li,
+.full_post_area .col_2 .block_comment .comments_count_filter,
+.full_post_area .col_2 .block_comment .comments_count_filter h3,
+.full_post_area .col_2 .post_content h1 {
+    color: white !important;
+}
+
+.down,
+.author_head .author_activity a,
+.author_head .author_desc ul.author_social li a,
+.single_head .content .author_dtails .auth_desc ul.auth_links li a {
+    color: #ba46cb !important;
+}
+
+/* hover color */
+.m_menu ul li:hover > a {
+    color: #dfcdf4;
+}
+/* text color */
+.p_title a,
+.desc {
+    color: white;
+}
+.search_aside input[type=search],
+.search_aside button {
+    background: transparent;
+}
+
+.cat a,
+.main_slider .slide .sl_text a.more,
+.authors a.more,
+.sidebar .cats a.more {
+    background: #6436d8 !important;
+}
+
+/* img border */
+.image img {
+    border-radius: 13px;
+}
+
+a[href="https://trickbd.com/author/sohag2002"] {
+    background-color: red;
+    padding: 0 20px;
+}
+
+.featured_post .box ul li:nth-child(5) {
+    top: -323px;
+    right: 20px;
+}
+.featured_post .box ul li:nth-child(5) a {
+    background-color: #7243e9;
+    -webkit-box-shadow: 0 7px 20px #473ddd;
+    box-shadow: 0 7px 20px #473ddd;
+    color: #fff;
+    padding: 7px 9px;
+}
+.featured_post .box .image .cat a {
+    -webkit-box-shadow: 0 7px 20px #473ddd;
+    box-shadow: 0 7px 20px #473ddd;
+}
+
+/* wp admin page */
+.wp-admin {
+    color: #3c434a !important;
+}
+}
